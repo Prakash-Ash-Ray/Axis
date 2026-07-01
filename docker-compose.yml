@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: axis_db
+    restart: always
+    environment:
+      POSTGRES_USER: axis_user
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: axis_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - axis_pgdata:/var/lib/postgresql/data
+
+volumes:
+  axis_pgdata:

@@ -7,8 +7,7 @@ and attention. Habits change. Goals evolve. Money moves. Attention drifts. Axis 
 to keep those moving parts aligned around a stable center.
 
 The project is designed as a durable, self-owned ecosystem where personal data is captured 
-reliably, stored safely, and made useful through dashboards, insights, and automation.
-
+reliably, stored , and transformed into useful insights through dashboards and automation.
 ---
 
 ## 🏗️ Architectural Evolution Roadmap
